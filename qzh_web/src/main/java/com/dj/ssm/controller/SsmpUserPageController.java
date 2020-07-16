@@ -32,6 +32,10 @@ public class SsmpUserPageController {
         System.out.println(11);
     }
 
+    public void ff(){
+        System.out.println(11);
+    }
+
     @Autowired
     private SsmpUserService ssmpUserService;
 
