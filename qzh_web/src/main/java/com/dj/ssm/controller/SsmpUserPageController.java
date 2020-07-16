@@ -16,6 +16,10 @@ import java.util.List;
 @RequestMapping("/user/")
 public class SsmpUserPageController {
 
+    public void aa(){
+        System.out.println(11);
+    }
+
     @Autowired
     private SsmpUserService ssmpUserService;
 
