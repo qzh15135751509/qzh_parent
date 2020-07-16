@@ -15,6 +15,10 @@ import java.util.List;
 @Controller
 @RequestMapping("/user/")
 public class SsmpUserPageController {
+    
+    public void bb(){
+        System.out.println(11);
+    }
 
     public void aa(){
         System.out.println(11);
