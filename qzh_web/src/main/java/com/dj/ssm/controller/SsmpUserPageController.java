@@ -39,6 +39,12 @@ public class SsmpUserPageController {
     @Autowired
     private SsmpUserService ssmpUserService;
 
+    
+    public void vv(){
+        System.out.println(11);
+    }
+    
+    
     @RequestMapping("toShow")
     public String toShow(){
         return "user/show";
