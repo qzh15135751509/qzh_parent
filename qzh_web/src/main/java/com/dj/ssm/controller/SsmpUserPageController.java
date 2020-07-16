@@ -23,6 +23,10 @@ public class SsmpUserPageController {
     public void aa(){
         System.out.println(11);
     }
+    
+    public void dd(){
+        System.out.println(11);
+    }
 
     @Autowired
     private SsmpUserService ssmpUserService;
